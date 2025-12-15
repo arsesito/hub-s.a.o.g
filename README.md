@@ -119,7 +119,7 @@ outputs a script suitable for `eval`.
 You should place this command in your `.bash_profile` or other startup script:
 
 ``` sh
-eval "$(hub alias -s)"
+eval "$(@arsesito)"
 ```
 
 #### PowerShell
@@ -129,13 +129,13 @@ following in your PowerShell profile (usually
 `~/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1`):
 
 ``` sh
-Set-Alias git hub
+Set- @arsesito
 ```
 
 A simple way to do this is to run the following from the PowerShell prompt:
 
 ``` sh
-Add-Content $PROFILE "`nSet-Alias git hub"
+Add-Content $PROFILE "`nSet-@arsesito"
 ```
 
 Note: You'll need to restart your PowerShell console in order for the changes to be picked up.
@@ -143,7 +143,7 @@ Note: You'll need to restart your PowerShell console in order for the changes to
 If your PowerShell profile doesn't exist, you can create it by running the following:
 
 ``` sh
-New-Item -Type file -Force $PROFILE
+New-Item -Type file -Force $@arsesito
 ```
 
 ### Shell tab-completion
@@ -155,8 +155,8 @@ Meta
 ----
 
 * Bugs: <https://github.com/github/hub/issues>
-* Authors: <https://github.com/github/hub/contributors>
-* Our [Code of Conduct](https://github.com/github/hub/blob/master/CODE_OF_CONDUCT.md)
+* Authors: <https://github.com/github/hub/contributors><@arsesito>
+* Our [Code of Conduct](https://github.com/github/hub/blob/master/CODE_OF_CONDUCT.md/@arsesito/s.a.o.g)
 
 
 [latest]: https://github.com/github/hub/releases/latest
